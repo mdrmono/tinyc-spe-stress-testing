@@ -1,0 +1,14 @@
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+printf "/output/*\n!/output/.gitkeep\n" >> .gitignore
+
+printf "/input/*\n!/input/.gitkeep\n" >> .gitignore
